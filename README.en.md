@@ -22,6 +22,13 @@ No installation, no accounts, no server. Runs in any web browser.
 
 ---
 
+## 📸 Screenshots
+
+<p align="center">
+  <img src="screenshots/main-en.png" alt="The main screen of the app with the loan form and the list of loans" width="820"><br>
+  <sub>All names in the screenshots are fictional.</sub>
+</p>
+
 ## ✨ Features
 
 | | |
@@ -47,7 +54,7 @@ Open the app link from any computer or phone. Nothing else is needed.
 
 ## 🔒 Personal data (GDPR)
 
-- Data is **stored only in the browser** of the computer you are using. It is never sent to a server and is never uploaded to GitHub.
+- Data is **stored only in the browser** of the computer you are using. It is never sent to a server and is never uploaded to GitHub. If you open the app online, GitHub hosts the page and can see technical visitor information (e.g. the IP address), while the loan records always stay local. For use with no contact with GitHub at all, use the local option (Download ZIP).
 - No external services, tracking cookies or analytics are used.
 - Only the teacher's name is recorded, which is the minimum needed.
 - To erase a teacher's data, simply delete their records.
