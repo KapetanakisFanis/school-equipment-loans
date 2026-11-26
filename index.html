@@ -356,7 +356,7 @@ footer a{color:var(--brand);text-decoration:none}footer a:hover{text-decoration:
     $("rows").innerHTML = list.map(function(r){
       var ret = r.tin ? '<span class="tag done">' + esc(retText(r)) + '</span>' : '<span class="tag open">' + esc(t("pending")) + '</span>';
       var retBtn = r.tin ? '' : '<button class="small primary" data-act="ret" data-id="'+esc(r.id)+'">' + esc(t("ret")) + '</button> ';
-      return "<tr><td>"+esc(r.first)+"</td><td>"+esc(r.last)+"</td><td>"+esc(r.item)+'</td><td class="num">'+(r.qty||1)+"</td><td>"+esc(fmtDate(r.date))+
+      return "<tr><td>"+esc(r.first)+"</td><td>"+esc(r.last)+"</td><td>"+esc(r.item)+'</td><td class="num">'+(r.qty||1)+'</td><td class="nw">'+esc(fmtDate(r.date))+
         "</td><td>"+esc(r.tout)+"</td><td class=\"nw\">"+ret+"</td><td>"+esc(r.notes)+"</td>"+
         '<td class="noprint act">'+retBtn+'<button class="icon soft" data-act="edit" data-id="'+esc(r.id)+'" title="'+esc(t("edit"))+'" aria-label="'+esc(t("edit"))+'"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20h4L19 9l-4-4L4 16v4zM14 6l4 4"/></svg></button> '+
         '<button class="icon danger" data-act="del" data-id="'+esc(r.id)+'" title="'+esc(t("del"))+'" aria-label="'+esc(t("del"))+'"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 7h14M10 7V5h4v2M7 7l1 12h8l1-12M10 11v5M14 11v5"/></svg></button></td></tr>';

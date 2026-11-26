@@ -25,8 +25,11 @@ No installation, no accounts, no server. Runs in any web browser.
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="screenshots/main-en.png" alt="The main screen of the app with the loan form and the list of loans" width="820"><br>
-  <sub>All names in the screenshots are fictional.</sub>
+  <img src="screenshots/main-en.png" alt="The main screen of the app with the loan form and the list of loans" width="820">
+</p>
+<p align="center">
+  <img src="screenshots/mobile-en.png" alt="The app on a phone" width="260"><br>
+  <sub>Works on phones too. All names in the screenshots are fictional.</sub>
 </p>
 
 ## ✨ Features
